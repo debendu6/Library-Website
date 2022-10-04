@@ -1,0 +1,53 @@
+body{
+    background-color: black;
+    background-image: url('https://img.freepik.com/free-photo/book-library-with-open-textbook_1150-5920.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+}
+
+.nav-link{
+    list-style: none;
+    padding: 8px;
+    text-align: right;
+    justify-items: right;
+    font-size: large;
+
+}
+
+.nav-link:hover{
+    color: black;
+}
+
+.navbar-brand{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: x-large;
+    justify-items: end;
+}
+
+#navbarSupportedContent{
+    justify-content: end;
+}
+
+.container{
+    padding-left: 0%;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+.heading{
+    font-size: 90px;
+    padding-left: 30px;
+    padding-right: 850px;
+    padding-top: 155px;
+    font-style: oblique;
+    color:rgb(9, 1, 9);
+}
